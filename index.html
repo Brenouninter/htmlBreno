@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal Breno</title>
+</head>
+<style> 
+    .imgcentro {
+        text-align: center;
+    }
+    .corroxa{
+        color: #8a2be2;
+    }
+    
+    .fonte2{
+        font-size: 150%;
+    }
+    .fonte3{
+        font-size: 170%;
+    }
+    .texto{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    header {
+        background-color: rgb(255, 255, 255);
+        justify-content: space-around;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .container {
+        display: flex;
+        
+        justify-Content: space-around;
+    }
+    .container2 { 
+    width: 10%; 
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    padding: 10px;
+    font-size: 170%;
+    font-weight: bolder;
+    border-radius: 10px;   
+    
+}
+
+    .box {
+        width: 33%;
+        font: bold 1.5em sans-serif;
+        color: #fff;
+        padding: 10px 20px;
+        border: 3px;
+        text-align: center;
+
+    }
+
+    .box1 {
+        background: #789;
+    }
+
+    .box2 {
+        background: #8a2be2;
+    }
+    .box11{
+        background: #789;
+        padding: 10px 20px;
+    }
+    .box22{
+        background: #8a2be2;
+        padding: 10px 20px;
+
+    }
+</style>
+
+<body>
+    <!--no style css acima algumas funções aprendidas conforme o estudo da aula para me auxiliar. --> 
+
+    <!-- Aqui em peguei referências das aulas e criei o menu superior com divs.  -->
+
+    <div class="container">
+        <div class="box box1"><a href="#sobre">Sobre mim</a></div>
+        <div class="box box2"><a href="#formacao">Formação e experiências</a></div>
+        <div class="box box1"><a href="#portfolio">Portfólio</a></div>
+        <div class="box box2"><a href="#contato">Contato</a></div>
+    </div>
+
+
+    <br>
+
+    <h1 id="sobre" class="imgcentro">Sobre mim</h1>
+
+
+    <p class="imgcentro fonte2"> Olá tudo bem? Prazer me chamo Breno Martins de Souza!<br>
+        Gosto de: <span class="corroxa"> Músicas, filmes/séries, ler e dar boas risadas. </span></p>
+
+    <div class="imgcentro">
+        <img src="Sobremim2.jpeg" width="42%" alt="Minha foto" title="Ubatuba">
+    </div>
+
+    <p class="imgcentro fonte2" >Tenho: <span class="corroxa">Uma ótima família, uma namorada maravilhosa e ótimos amigos.</span><br><br>
+        Apaixonado por: <span class="corroxa">Astronomia amadora e também por todo esse universo lindo em que vivemos.</span><br>
+    </p>
+
+<br><br>
+    <h1 id="formacao" class="imgcentro box11">Formação e experiências</h1>
+    <br>    
+
+    <p class="imgcentro fonte2">No momento cursando <span class="corroxa"> Análise e Desenvolvimento de Sistemas </span> pela Uninter.<br> Meu maior foco no momento é no estudo da linguagem java juntamente com<br> banco de dados, futuramente pretendo me adentrar mais no mundo do html.<br><br> Me formarei nesse ano de 2024 e estou sempre em busca de informações sobre tecnologias.<br> Trabalho há anos e tenho experiência em um <span class="corroxa">posto de pesagem veícular</span> no horário noturno.</p>
+    <br>
+
+<br><br>
+
+    <h1 id="portfolio" class="imgcentro box11">Portfólio</h1>
+
+    <br>
+
+    <p class="fonte2 imgcentro">Segue abaixo os links para as duas atividades extensionistas que realizei na Uninter.<br><br>
+        A primeira atividade extensionista abordei sobre a criação de um aplicativo voltado para<br> os trabalhadores rurais da minha região, que trabalham com plantações de morango.<br><br>
+        <a href="Atividade extensionista I Breno final.pdf"> <span class="corroxa">Link para a Atividade extensionista I<br><br></span></a>
+
+        Ja na segunda atividade extensionista, falei sobre a implantação de um aplicativo de doações<br> na nossa comunidade, veja toda metologia por trás da criação do aplicativo logo abaixo!<br><br>
+        
+        <a href="Atividades Extensionista II Breno final.pdf"> <span class="corroxa">Link para a Atividade extensionista II</span></a>
+      </p>
+    
+
+    <br>
+    <h1 id="contato" class="imgcentro box22">Contato</h1>
+
+    <br>
+    <p class="imgcentro fonte2">Deseja entrar em contato?<br>
+        E-mail: <span class="corroxa">brenoolympus@gmail.com</span><br>
+    </p>
+
+<br><br>    
+    <section style="clear: both;">
+        <div style="background-color: #789;">
+            <h1 class="fonte3 imgcentro box11">Ou se preferir entre em contato abaixo</h1>
+        </div>
+    </section>
+    <section >
+        <form>
+            <br>
+            <table style="margin: auto;">
+            
+            <tr>
+                <th class="fonte2 ">Nome</th>
+                <td><input type="text" size="50"></td>
+            </tr>
+            
+            <tr>
+                <th class="fonte2 ">E-mail</th>
+                <td><input type="email" size="50"></td>
+            </tr>
+            
+            <tr>
+                <th class="fonte2 ">Mensagem:</th>
+                <td><textarea rows="5" cols="50"></textarea></td>
+            </tr>
+            
+
+            <tr>
+                <th></th>
+                <td><input type="submit" value="Enviar"></td>
+            </tr>
+        </table>
+        <br><br>
+    </form>
+    </section>
+
+    <p class="imgcentro">
+        OBS: Botão de enviar meramente ilustrativo.
+    </p>
+
+
+    
+
+
+
+</body>
+
+</html>
